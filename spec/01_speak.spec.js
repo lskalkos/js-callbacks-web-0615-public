@@ -3,6 +3,7 @@
 describe('saySomething', function() {
 
   it('says hello when callback is sayHello', function() {
+    console.log(saySomething("Amanda", sayHello));
     expect(saySomething("Amanda", sayHello)).toEqual("Hello Amanda!");
   });
 
